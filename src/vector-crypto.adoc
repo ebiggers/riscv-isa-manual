@@ -85,8 +85,7 @@ was completed before there was an approved RISC-V Vector Sail Model.
 Therefore, we don't have any Sail code to include in the instruction
 descriptions. Instead we have included Sail-like pseudocode. While we have
 endeavored to adhere to Sail syntax, we have taken some liberties for the
-sake of simplicity where we believe that that our intent is clear to the
-reader.
+sake of simplicity where we believe that our intent is clear to the reader.
 
 [NOTE]
 ====
@@ -217,7 +216,7 @@ Element groups can be formed across registers in implementations where
 
 [NOTE]
 ====
-Since the the *vector extension for application processors* requires a minimum of VLEN of 128,
+Since the *vector extension for application processors* requires a minimum of VLEN of 128,
 at most such implementations would require LMUL=2 to form the largest element groups in this specification.
 
 However, implementations with a smaller VLEN, such as embedded designs, will requires a larger `LMUL`
@@ -560,7 +559,7 @@ efficiently.
 ====
 This Zvkb extension is a proper subset of the Zvbb extension.
 Zvkb allows for vector crypto implementations without incurring
-the the cost of implementing the additional bitmanip instructions
+the cost of implementing the additional bitmanip instructions
 in the Zvbb extension: vbrev.v, vclz.v, vctz.v, vcpop.v, and vwsll.[vv,vx,vi].
 ====
 

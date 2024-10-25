@@ -202,6 +202,6 @@ include::calling-convention.adoc[]
 //include::fraclmul.adoc[]
 //End of Vector appendices
 include::index.adoc[]
-// this is generated generated from index markers.
+// this is generated from index markers.
 include::bibliography.adoc[]
 // this references the riscv-spec.bi file that has been copied into the resources directory

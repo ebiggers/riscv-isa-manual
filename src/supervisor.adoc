@@ -412,7 +412,7 @@ If the Sscofpmf extension is implemented, bits `sip`.LCOFIP and `sie`.LCOFIE
 are the interrupt-pending and interrupt-enable bits for local counter-overflow
 interrupts.
 LCOFIP is read-write in `sip` and reflects the occurrence of a local
-counter-overflow overflow interrupt request resulting from any of the
+counter-overflow interrupt request resulting from any of the
 `mhpmevent__n__`.OF bits being set.
 If the Sscofpmf extension is not implemented, `sip`.LCOFIP and `sie`.LCOFIE are
 read-only zeros.
